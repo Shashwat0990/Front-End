@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    font-family:sans-serif;
+    
+}
+.banner{
+    height: 100vh;
+    background-image:url(bg.jpg);
+    opacity: 0.5px;
+    background-size:cover;
+    background-position: center;
+}
+.navbar{
+    width: 95%;
+    height: 20px;
+    font-family: cursive;
+    background-color:white;
+    margin: auto;
+    padding: 25px 36px ;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+     background-image: url(navbar.jpg)
+         
+}
+.logo{
+    width: 400px;
+    cursor: none;
+    
+    
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    text-transform: capitalize;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #070E8A;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+    
+}
+.sign  {
+   background: #3B5998;
+  color: white;
+}
+.fa {
+  font-size: 211px;
+  padding: 20px;
+   width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 15px;
+    border-radius: 20px;
+
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+    
+}
+
+.fa-instagram {
+  background:#bf26b2;
+  color: white;
+}
+.content{
+    width:100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%);
+    transform:  translateX(-75%);
+    text-align:center;
+    color:white;
+    
+   
+    background-blend-mode:hue;
+    
+}
+.content h1{
+    font-size:70px;
+    margin-top: 80
+}
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.log{
+    width: 200px;
+ background-color:black;
+    border-radius: 40px;
+    align-content:center;
+}
